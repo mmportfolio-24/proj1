@@ -1,0 +1,22 @@
+[2024-11-01T19:51:18.727+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-01T19:51:18.752+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: read_kafka.read_from_kafka manual__2024-11-01T19:51:15.920345+00:00 [queued]>
+[2024-11-01T19:51:18.767+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: read_kafka.read_from_kafka manual__2024-11-01T19:51:15.920345+00:00 [queued]>
+[2024-11-01T19:51:18.768+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-01T19:51:18.787+0000] {taskinstance.py:2888} INFO - Executing <Task(ConsumeFromTopicOperator): read_from_kafka> on 2024-11-01 19:51:15.920345+00:00
+[2024-11-01T19:51:18.797+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=75) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-01T19:51:18.798+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'read_kafka', 'read_from_kafka', 'manual__2024-11-01T19:51:15.920345+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/read_kafka.py', '--cfg-path', '/tmp/tmpwj56gy1h']
+[2024-11-01T19:51:18.799+0000] {standard_task_runner.py:72} INFO - Started process 76 to run task
+[2024-11-01T19:51:18.800+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask read_from_kafka
+[2024-11-01T19:51:18.863+0000] {task_command.py:467} INFO - Running <TaskInstance: read_kafka.read_from_kafka manual__2024-11-01T19:51:15.920345+00:00 [running]> on host 887d9f907c8b
+[2024-11-01T19:51:18.976+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='read_kafka' AIRFLOW_CTX_TASK_ID='read_from_kafka' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T19:51:15.920345+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-01T19:51:15.920345+00:00'
+[2024-11-01T19:51:18.978+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-01T19:51:19.016+0000] {base.py:84} INFO - Retrieving connection 'donki-cme-broker'
+[2024-11-01T19:52:19.021+0000] {consume.py:167} INFO - Reached end of log. Exiting.
+[2024-11-01T19:52:19.022+0000] {consume.py:182} INFO - committing offset at end_of_batch
+[2024-11-01T19:52:19.044+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-01T19:52:19.045+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=read_kafka, task_id=read_from_kafka, run_id=manual__2024-11-01T19:51:15.920345+00:00, execution_date=20241101T195115, start_date=20241101T195118, end_date=20241101T195219
+[2024-11-01T19:52:19.111+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-01T19:52:19.129+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-01T19:52:19.131+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

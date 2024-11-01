@@ -1,0 +1,646 @@
+[2024-10-29T18:34:57.456+0000] {processor.py:186} INFO - Started process (PID=2479) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:34:57.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:34:57.460+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:34:57.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:34:57.487+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:34:57.483+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:34:57.489+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:34:57.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.062 seconds
+[2024-10-29T18:35:27.773+0000] {processor.py:186} INFO - Started process (PID=2486) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:35:27.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:35:27.776+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:35:27.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:35:27.796+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:35:27.792+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:35:27.798+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:35:27.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.055 seconds
+[2024-10-29T18:35:36.891+0000] {processor.py:186} INFO - Started process (PID=2493) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:35:36.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:35:36.894+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:35:36.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:35:36.930+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:35:36.925+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:35:36.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:35:36.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.073 seconds
+[2024-10-29T18:36:07.204+0000] {processor.py:186} INFO - Started process (PID=2500) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:36:07.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:36:07.206+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:36:07.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:36:07.228+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:36:07.223+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:36:07.230+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:36:07.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.057 seconds
+[2024-10-29T18:36:37.587+0000] {processor.py:186} INFO - Started process (PID=2507) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:36:37.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:36:37.590+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:36:37.589+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:36:37.604+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:36:37.601+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:36:37.606+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:36:37.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.047 seconds
+[2024-10-29T18:37:07.903+0000] {processor.py:186} INFO - Started process (PID=2514) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:37:07.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:37:07.906+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:37:07.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:37:07.929+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:37:07.924+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:37:07.931+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:37:07.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.059 seconds
+[2024-10-29T18:37:38.233+0000] {processor.py:186} INFO - Started process (PID=2521) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:37:38.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:37:38.237+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:37:38.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:37:38.260+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:37:38.254+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:37:38.261+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:37:38.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.059 seconds
+[2024-10-29T18:38:08.537+0000] {processor.py:186} INFO - Started process (PID=2528) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:38:08.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:38:08.540+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:38:08.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:38:08.560+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:38:08.554+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:38:08.563+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:38:08.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.055 seconds
+[2024-10-29T18:38:38.845+0000] {processor.py:186} INFO - Started process (PID=2535) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:38:38.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:38:38.849+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:38:38.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:38:38.870+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:38:38.865+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:38:38.872+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:38:38.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.059 seconds
+[2024-10-29T18:39:09.150+0000] {processor.py:186} INFO - Started process (PID=2542) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:39:09.151+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:39:09.153+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:39:09.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:39:09.171+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:39:09.167+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:39:09.173+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:39:09.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.055 seconds
+[2024-10-29T18:39:39.511+0000] {processor.py:186} INFO - Started process (PID=2549) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:39:39.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:39:39.514+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:39:39.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:39:39.536+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:39:39.531+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:39:39.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:39:39.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.057 seconds
+[2024-10-29T18:40:09.957+0000] {processor.py:186} INFO - Started process (PID=2557) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:40:09.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:40:09.959+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:40:09.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:40:09.978+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:40:09.974+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:40:09.980+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:40:10.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.055 seconds
+[2024-10-29T18:40:29.220+0000] {processor.py:186} INFO - Started process (PID=2559) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:40:29.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:40:29.223+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:40:29.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:40:29.255+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:40:29.250+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:40:29.257+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:40:29.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.069 seconds
+[2024-10-29T18:40:59.638+0000] {processor.py:186} INFO - Started process (PID=2568) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:40:59.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:40:59.643+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:40:59.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:40:59.664+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:40:59.659+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:40:59.665+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:40:59.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.059 seconds
+[2024-10-29T18:41:30.098+0000] {processor.py:186} INFO - Started process (PID=2576) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:41:30.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:41:30.101+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:41:30.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:41:30.127+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:41:30.118+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:41:30.129+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:41:30.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.068 seconds
+[2024-10-29T18:42:00.597+0000] {processor.py:186} INFO - Started process (PID=2585) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:42:00.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:42:00.600+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:42:00.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:42:00.621+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:42:00.616+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:42:00.623+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:42:00.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.056 seconds
+[2024-10-29T18:42:31.064+0000] {processor.py:186} INFO - Started process (PID=2593) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:42:31.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:42:31.067+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:42:31.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:42:31.086+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:42:31.082+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:42:31.088+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:42:31.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.053 seconds
+[2024-10-29T18:43:01.595+0000] {processor.py:186} INFO - Started process (PID=2602) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:43:01.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:43:01.598+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:43:01.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:43:01.620+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:43:01.616+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:43:01.622+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:43:01.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.058 seconds
+[2024-10-29T18:43:32.045+0000] {processor.py:186} INFO - Started process (PID=2610) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:43:32.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:43:32.051+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:43:32.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:43:32.071+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:43:32.067+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:43:32.073+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:43:32.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.066 seconds
+[2024-10-29T18:44:02.458+0000] {processor.py:186} INFO - Started process (PID=2618) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:44:02.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:44:02.461+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:44:02.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:44:02.482+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:44:02.477+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:44:02.484+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:44:02.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.058 seconds
+[2024-10-29T18:44:33.517+0000] {processor.py:186} INFO - Started process (PID=2634) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:44:33.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:44:33.520+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:44:33.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:44:33.537+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:44:33.533+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:44:33.539+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:44:33.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.058 seconds
+[2024-10-29T18:45:04.502+0000] {processor.py:186} INFO - Started process (PID=2656) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:45:04.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:45:04.506+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:45:04.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:45:04.523+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:45:04.519+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:45:04.524+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:45:04.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.054 seconds
+[2024-10-29T18:45:34.863+0000] {processor.py:186} INFO - Started process (PID=2664) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:45:34.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:45:34.867+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:45:34.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:45:34.889+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:45:34.884+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:45:34.891+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:45:34.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.070 seconds
+[2024-10-29T18:46:05.286+0000] {processor.py:186} INFO - Started process (PID=2672) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:46:05.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:46:05.289+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:46:05.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:46:05.311+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:46:05.306+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:46:05.312+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:46:05.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.057 seconds
+[2024-10-29T18:46:35.709+0000] {processor.py:186} INFO - Started process (PID=2680) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:46:35.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:46:35.713+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:46:35.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:46:35.734+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:46:35.730+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:46:35.735+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:46:35.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.057 seconds
+[2024-10-29T18:47:06.157+0000] {processor.py:186} INFO - Started process (PID=2688) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:47:06.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:47:06.161+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:47:06.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:47:06.181+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:47:06.176+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:47:06.183+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:47:06.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.058 seconds
+[2024-10-29T18:47:36.591+0000] {processor.py:186} INFO - Started process (PID=2696) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:47:36.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:47:36.594+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:47:36.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:47:36.611+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:47:36.606+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:47:36.613+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:47:36.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.055 seconds
+[2024-10-29T18:48:07.098+0000] {processor.py:186} INFO - Started process (PID=2705) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:48:07.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:48:07.101+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:48:07.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:48:07.122+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:48:07.117+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:48:07.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:48:07.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.058 seconds
+[2024-10-29T18:48:37.659+0000] {processor.py:186} INFO - Started process (PID=2715) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:48:37.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:48:37.663+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:48:37.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:48:37.686+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:48:37.681+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:48:37.688+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:48:37.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.060 seconds
+[2024-10-29T18:49:08.466+0000] {processor.py:186} INFO - Started process (PID=2728) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:49:08.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:49:08.469+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:49:08.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:49:08.491+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:49:08.486+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:49:08.493+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:49:08.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.058 seconds
+[2024-10-29T18:49:39.056+0000] {processor.py:186} INFO - Started process (PID=2738) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:49:39.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:49:39.059+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:49:39.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:49:39.080+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:49:39.075+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:49:39.082+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:49:39.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.055 seconds
+[2024-10-29T18:50:09.830+0000] {processor.py:186} INFO - Started process (PID=2750) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:50:09.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:50:09.834+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:50:09.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:50:09.857+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:50:09.852+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:50:09.859+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:50:09.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.059 seconds
+[2024-10-29T18:50:40.526+0000] {processor.py:186} INFO - Started process (PID=2761) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:50:40.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:50:40.529+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:50:40.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:50:40.548+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:50:40.544+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:50:40.550+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:50:40.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.053 seconds
+[2024-10-29T18:51:11.092+0000] {processor.py:186} INFO - Started process (PID=2770) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:51:11.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:51:11.095+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:51:11.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:51:11.117+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:51:11.112+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:51:11.119+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:51:11.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.057 seconds
+[2024-10-29T18:51:41.520+0000] {processor.py:186} INFO - Started process (PID=2778) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:51:41.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:51:41.523+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:51:41.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:51:41.546+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:51:41.541+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:51:41.548+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:51:41.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.062 seconds
+[2024-10-29T18:52:11.941+0000] {processor.py:186} INFO - Started process (PID=2786) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:52:11.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:52:11.944+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:52:11.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:52:11.964+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:52:11.959+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:52:11.966+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:52:11.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.063 seconds
+[2024-10-29T18:52:42.372+0000] {processor.py:186} INFO - Started process (PID=2794) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:52:42.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:52:42.375+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:52:42.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:52:42.393+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:52:42.389+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/read_kafka.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_kafka.py", line 30, in <module>
+    from airflow.providers.apache.kafka.operators.consume import ConsumeFromTopicOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-10-29T18:52:42.395+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:52:42.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.057 seconds
+[2024-10-29T18:58:32.208+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:58:32.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:58:32.214+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.214+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:58:32.269+0000] {processor.py:925} INFO - DAG(s) 'kafka-example' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:58:32.705+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.704+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:kafka-example
+[2024-10-29T18:58:32.724+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.724+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:kafka-example
+[2024-10-29T18:58:32.738+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.737+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:kafka-example
+[2024-10-29T18:58:32.750+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.748+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:kafka-example
+[2024-10-29T18:58:32.764+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.763+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:kafka-example
+[2024-10-29T18:58:32.778+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.777+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:kafka-example
+[2024-10-29T18:58:32.791+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.790+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:kafka-example
+[2024-10-29T18:58:32.792+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.791+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T18:58:32.818+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.817+0000] {dag.py:3262} INFO - Creating ORM DAG for kafka-example
+[2024-10-29T18:58:32.831+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:32.830+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-example to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T18:58:32.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.667 seconds
+[2024-10-29T18:59:03.646+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:59:03.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:59:03.651+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:03.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:59:03.677+0000] {processor.py:925} INFO - DAG(s) 'kafka-example' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:59:03.712+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:03.712+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T18:59:03.743+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:03.742+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-example to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T18:59:03.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.129 seconds
+[2024-10-29T18:59:34.099+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:59:34.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T18:59:34.103+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:34.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:59:34.135+0000] {processor.py:925} INFO - DAG(s) 'kafka-example' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T18:59:34.173+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:34.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T18:59:34.207+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:34.207+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-example to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T18:59:34.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.141 seconds
+[2024-10-29T19:00:03.539+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:03.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:00:03.546+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:03.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:03.587+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:04.023+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.021+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:read_kafka
+[2024-10-29T19:00:04.040+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.040+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:read_kafka
+[2024-10-29T19:00:04.050+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.049+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:read_kafka
+[2024-10-29T19:00:04.060+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.059+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:read_kafka
+[2024-10-29T19:00:04.069+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.068+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:read_kafka
+[2024-10-29T19:00:04.077+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.077+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:read_kafka
+[2024-10-29T19:00:04.087+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.087+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:read_kafka
+[2024-10-29T19:00:04.089+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:00:04.106+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.106+0000] {dag.py:3262} INFO - Creating ORM DAG for read_kafka
+[2024-10-29T19:00:04.122+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:04.122+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:00:04.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.617 seconds
+[2024-10-29T19:00:06.706+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:06.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:00:06.711+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:06.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:06.759+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:06.775+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:06.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:00:06.808+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:06.807+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:00:06.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.148 seconds
+[2024-10-29T19:00:22.931+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:22.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:00:22.935+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:22.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:22.975+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:22.990+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:22.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:00:23.023+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:23.023+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:00:23.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.132 seconds
+[2024-10-29T19:00:28.117+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:28.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:00:28.121+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:28.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:28.158+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:28.173+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:28.172+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:00:28.203+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:28.203+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:00:28.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.129 seconds
+[2024-10-29T19:00:31.213+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:31.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:00:31.218+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:31.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:31.262+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:31.279+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:31.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:00:31.318+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:31.318+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:00:31.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.319 seconds
+[2024-10-29T19:00:32.373+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:32.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:00:32.377+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:32.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:32.419+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:32.435+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:32.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:00:32.643+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:32.643+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:00:32.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.310 seconds
+[2024-10-29T19:00:37.883+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:37.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:00:37.886+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:37.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:37.931+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:00:38.294+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:38.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:00:38.322+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:38.321+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:00:38.356+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.481 seconds
+[2024-10-29T19:01:09.227+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:01:09.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:01:09.230+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:09.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:01:09.456+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:01:09.492+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:09.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:01:09.518+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:09.518+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:01:09.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.323 seconds
+[2024-10-29T19:01:39.705+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:01:39.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:01:39.708+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:39.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:01:39.737+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:01:39.776+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:39.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:01:39.809+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:39.809+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:01:39.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.139 seconds
+[2024-10-29T19:02:10.257+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:02:10.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:02:10.261+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:10.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:02:10.286+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:02:10.322+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:10.322+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:02:10.366+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:10.365+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:02:10.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.149 seconds
+[2024-10-29T19:02:40.754+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:02:40.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:02:40.757+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:40.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:02:40.781+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:02:40.817+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:40.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:02:40.850+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:40.849+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:02:40.875+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.130 seconds
+[2024-10-29T19:03:11.159+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:03:11.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:03:11.162+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:11.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:03:11.203+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:03:11.238+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:11.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:03:11.275+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:11.275+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:03:11.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.149 seconds
+[2024-10-29T19:03:41.643+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:03:41.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_kafka.py for tasks to queue
+[2024-10-29T19:03:41.646+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:41.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:03:41.674+0000] {processor.py:925} INFO - DAG(s) 'read_kafka' retrieved from /opt/airflow/dags/read_kafka.py
+[2024-10-29T19:03:41.708+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:41.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-29T19:03:41.740+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:41.739+0000] {dag.py:4180} INFO - Setting next_dagrun for read_kafka to 2024-10-28 00:00:00+00:00, run_after=2024-10-29 00:00:00+00:00
+[2024-10-29T19:03:41.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_kafka.py took 0.132 seconds

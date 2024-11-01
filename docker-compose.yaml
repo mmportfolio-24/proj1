@@ -1,0 +1,6 @@
+include:
+  - kafka/docker-compose.yaml # declare kafka
+  - airflow/docker-compose.yaml # declare airflow
+  
+networks:
+  airflow-kafka-network:

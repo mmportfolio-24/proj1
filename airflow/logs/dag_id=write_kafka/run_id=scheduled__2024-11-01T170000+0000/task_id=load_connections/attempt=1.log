@@ -1,0 +1,84 @@
+[2024-11-01T18:02:19.677+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-01T18:02:19.702+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [queued]>
+[2024-11-01T18:02:19.716+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [queued]>
+[2024-11-01T18:02:19.717+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-01T18:02:19.744+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_connections> on 2024-11-01 17:00:00+00:00
+[2024-11-01T18:02:19.753+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=79) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-01T18:02:19.755+0000] {standard_task_runner.py:72} INFO - Started process 81 to run task
+[2024-11-01T18:02:19.755+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'write_kafka', 'load_connections', 'scheduled__2024-11-01T17:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/write_kafka.py', '--cfg-path', '/tmp/tmpnx1o1wfd']
+[2024-11-01T18:02:19.757+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask load_connections
+[2024-11-01T18:02:20.033+0000] {task_command.py:467} INFO - Running <TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [running]> on host 6377ed8344c9
+[2024-11-01T18:02:20.146+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='write_kafka' AIRFLOW_CTX_TASK_ID='load_connections' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-01T17:00:00+00:00'
+[2024-11-01T18:02:20.148+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-01T18:02:20.182+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-11-01T18:02:20.194+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-01T18:02:20.208+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-01T18:02:20.209+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=write_kafka, task_id=load_connections, run_id=scheduled__2024-11-01T17:00:00+00:00, execution_date=20241101T170000, start_date=20241101T180219, end_date=20241101T180220
+[2024-11-01T18:02:20.253+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-01T18:02:20.473+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-01T18:02:20.476+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-01T18:09:42.966+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-01T18:09:42.988+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [queued]>
+[2024-11-01T18:09:42.998+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [queued]>
+[2024-11-01T18:09:42.999+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-01T18:09:43.019+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_connections> on 2024-11-01 17:00:00+00:00
+[2024-11-01T18:09:43.026+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=71) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-01T18:09:43.028+0000] {standard_task_runner.py:72} INFO - Started process 73 to run task
+[2024-11-01T18:09:43.028+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'write_kafka', 'load_connections', 'scheduled__2024-11-01T17:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/write_kafka.py', '--cfg-path', '/tmp/tmpxn8hsvny']
+[2024-11-01T18:09:43.031+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask load_connections
+[2024-11-01T18:09:43.313+0000] {task_command.py:467} INFO - Running <TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [running]> on host 53da8677eccb
+[2024-11-01T18:09:43.408+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='write_kafka' AIRFLOW_CTX_TASK_ID='load_connections' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-01T17:00:00+00:00'
+[2024-11-01T18:09:43.410+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-01T18:09:43.460+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-11-01T18:09:43.476+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-01T18:09:43.489+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-01T18:09:43.490+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=write_kafka, task_id=load_connections, run_id=scheduled__2024-11-01T17:00:00+00:00, execution_date=20241101T170000, start_date=20241101T180942, end_date=20241101T180943
+[2024-11-01T18:09:43.525+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-01T18:09:43.792+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-01T18:09:43.795+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-01T18:18:32.112+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-01T18:18:32.133+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [queued]>
+[2024-11-01T18:18:32.144+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [queued]>
+[2024-11-01T18:18:32.145+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-01T18:18:32.163+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_connections> on 2024-11-01 17:00:00+00:00
+[2024-11-01T18:18:32.171+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=79) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-01T18:18:32.172+0000] {standard_task_runner.py:72} INFO - Started process 81 to run task
+[2024-11-01T18:18:32.173+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'write_kafka', 'load_connections', 'scheduled__2024-11-01T17:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/write_kafka.py', '--cfg-path', '/tmp/tmpbx_znnuo']
+[2024-11-01T18:18:32.176+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask load_connections
+[2024-11-01T18:18:32.438+0000] {task_command.py:467} INFO - Running <TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [running]> on host f671a822179b
+[2024-11-01T18:18:32.528+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='write_kafka' AIRFLOW_CTX_TASK_ID='load_connections' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-01T17:00:00+00:00'
+[2024-11-01T18:18:32.530+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-01T18:18:32.562+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-11-01T18:18:32.574+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-01T18:18:32.588+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-01T18:18:32.589+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=write_kafka, task_id=load_connections, run_id=scheduled__2024-11-01T17:00:00+00:00, execution_date=20241101T170000, start_date=20241101T181832, end_date=20241101T181832
+[2024-11-01T18:18:32.629+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-01T18:18:32.838+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-01T18:18:32.841+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-01T18:29:15.449+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-01T18:29:15.474+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [queued]>
+[2024-11-01T18:29:15.484+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [queued]>
+[2024-11-01T18:29:15.485+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-01T18:29:15.505+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_connections> on 2024-11-01 17:00:00+00:00
+[2024-11-01T18:29:15.511+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=79) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-01T18:29:15.513+0000] {standard_task_runner.py:72} INFO - Started process 81 to run task
+[2024-11-01T18:29:15.513+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'write_kafka', 'load_connections', 'scheduled__2024-11-01T17:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/write_kafka.py', '--cfg-path', '/tmp/tmpdjq6kc0y']
+[2024-11-01T18:29:15.516+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask load_connections
+[2024-11-01T18:29:15.782+0000] {task_command.py:467} INFO - Running <TaskInstance: write_kafka.load_connections scheduled__2024-11-01T17:00:00+00:00 [running]> on host 2416883f63e5
+[2024-11-01T18:29:15.870+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='write_kafka' AIRFLOW_CTX_TASK_ID='load_connections' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-01T17:00:00+00:00'
+[2024-11-01T18:29:15.872+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-01T18:29:15.904+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-11-01T18:29:15.917+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-01T18:29:15.930+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-01T18:29:15.931+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=write_kafka, task_id=load_connections, run_id=scheduled__2024-11-01T17:00:00+00:00, execution_date=20241101T170000, start_date=20241101T182915, end_date=20241101T182915
+[2024-11-01T18:29:15.969+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-01T18:29:16.174+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-01T18:29:16.176+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
