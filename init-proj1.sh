@@ -1,4 +1,11 @@
 echo -------------------------------------------------
+echo AIRFLOW USER ID
+echo -------------------------------------------------
+cd airflow
+bash airflow-setup.sh
+cd ..
+
+echo -------------------------------------------------
 echo RUNNING DOCKER COMPOSE TO START REQUIRED SERVICES
 echo -------------------------------------------------
 docker compose up -d
